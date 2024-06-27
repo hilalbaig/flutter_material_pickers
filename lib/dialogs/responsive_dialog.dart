@@ -141,7 +141,7 @@ class _ResponsiveDialogState extends State<ResponsiveDialog> {
     var theme = Theme.of(context);
     _headerColor = widget.headerColor ?? theme.primaryColor;
     _headerTextColor =
-        widget.headerTextColor ?? theme.primaryTextTheme.headline6?.color;
+        widget.headerTextColor ?? theme.primaryTextTheme.titleLarge?.color;
     _buttonTextColor = widget.buttonTextColor ?? theme.textTheme.button?.color;
     _backgroundColor = widget.backgroundColor ?? theme.dialogBackgroundColor;
 

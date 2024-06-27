@@ -32,7 +32,7 @@ ThemeData buildTheme(Brightness brightness) {
     ),
     dialogBackgroundColor: backgroundColor, // background color of the dialog
     primaryTextTheme: theme.primaryTextTheme.copyWith(
-      headline6: theme.primaryTextTheme.headline6?.copyWith(
+      headline6: theme.primaryTextTheme.titleLarge?.copyWith(
         color: headerTextColor, // text color of the header area
       ),
     ),
